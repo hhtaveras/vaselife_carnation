@@ -1,5 +1,5 @@
 # Scripts
--**car001_s001.R** -> build genetic map with OneMap combining the two F1 carnation populations, **car001_d001.vcf** and **car001_d002.vcf**. Make plot of built genetic map car001_d004.Rds with *LinkageMapView*.<br>
+-**car001_s001.R** -> build genetic map with OneMap combining the two F1 carnation populations, **car001_d001.vcf.gz** and **car001_d002.vcf.gz**. Make plot of built genetic map **car001_d004.Rds** with *LinkageMapView*.<br>
 
 -**car001_s002.R** -> calculate adjusted entry means for phenotypic data of Boxriker *et al*. 2018 and get the ones for individuals of population 1 and 2 only.<br>
 
