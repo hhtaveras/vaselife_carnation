@@ -12,3 +12,4 @@
 -**car001_s006.R** -> carry out QTL mapping for the two populations individually and make plots.<br>   
 
 -**car001_s010.R** -> modified functions of *LinkageMapView*.<br>
+# Data (input)
