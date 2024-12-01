@@ -63,8 +63,7 @@
 - **figS4.png** -> supplementary figure 4, plot of QTL mapping results for population 2.
 
 ## References
-- Boxriker M, Boehm R, M¨ohring J, et al (2017b) Efficient statistical design in twophase experiments on vase life in carnations (Dianthus caryophyllus L.). Postharvest Biology and Technology 128:161–168. https://doi.org/10.1016/j.postharvbio.2016.
-12.003
+- Boxriker M, Boehm R, M¨ohring J, et al (2017b) Efficient statistical design in twophase experiments on vase life in carnations (Dianthus caryophyllus L.). Postharvest Biology and Technology 128:161–168. https://doi.org/10.1016/j.postharvbio.2016.12.003
 
 
 
