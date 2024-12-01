@@ -20,7 +20,7 @@
 
 - **car001_d002.vcf.gz** -> population 2 in vcf format to read into OneMap.
 
-- **car001_d003.Rds** -> built genetic map in OneMap format with populations 1 and 2. 5412 SNP markers. **This file could not be uploaded here due to it's size.**
+- **car001_d003.Rds** -> built genetic map in OneMap format with populations 1 and 2. 5412 SNP markers. **This file could not be uploaded here due to it's size. It can be downloaded from this link:** https://jlubox.uni-giessen.de/getlink/fiWq1D8akPqer31yLnfpUzpY/car001_d003.Rds
 
 - **car001_d004.Rds** -> built genetic map in R dataframe format for GWAS calculations.
 
