@@ -17,7 +17,7 @@
 
 -**car001_d002.vcf.gz** -> population 2 in vcf format to read into OneMap.
 
--**car001_d003.Rds** -> built genetic map in OneMap format with populations 1 and 2. 5412 SNP markers.
+-**car001_d003.Rds** -> built genetic map in OneMap format with populations 1 and 2. 5412 SNP markers. **This file could not be uploaded here due to it's size**
 
 -**car001_d004.Rds** -> built genetic map in R dataframe format for GWAS calculations.
 
@@ -38,6 +38,37 @@
 -**car001_d012.vcf.gz** -> genotypic data of population 2 after being filtered for quality SNPs.
 
 -**car001_d021.Rdata** -> permutation test results for CIM scan of population 1. 1000 permutations. 
+
+# Figures
+
+-**fig1.pdf** -> figure of built genetic map with *LinkageMapView*.
+
+-**fig2.png** -> Manhattan and QQ plots of GWAS with combined populations and built genetic map.
+
+-**fig3.png** -> Correlation plots between estimated VL values by genomic prediction and observed values. 
+
+-**figS1.pdf** -> supplementary figure 1, plot of first two principal coordinates and heatmap of genetic distances.
+
+-**figS2.png** -> supplementary figure 2, plots of correlation between genetic and physical positions of mapped markers.
+
+-**figS3.png** -> supplementary figure 3, plot of QTL mapping results for population 1.
+
+-**figS4.png** -> supplementary figure 4, plot of QTL mapping results for population 2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -**car001_d022.Rdata** -> permutation test results for CIM scan of population 2. 1000 permutations. 
 
