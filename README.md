@@ -42,3 +42,5 @@
 -**car001_d022.Rdata** -> permutation test results for CIM scan of population 2. 1000 permutations. 
 
 # output
+
+-**car001_d015.npo** -> SNP marker data in NPO format, two rows per marker, to read into *SelectionTools* for filtering, 13917 SNP markers and 163 individuals.
