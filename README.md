@@ -3,7 +3,7 @@
 ## scripts
 - **car001_s001.R** -> build genetic map with OneMap combining the two F1 carnation populations, **input/car001_d001.vcf.gz** and **input/car001_d002.vcf.gz**. Make plot of built genetic map **input/car001_d004.Rds** with *LinkageMapView*.<br>
 
-- **car001_s002.R** -> calculate adjusted entry means for phenotypic data of Boxriker *et al*. 2018 and get the ones for individuals of population 1 and 2 only.<br>
+- **car001_s002.R** -> calculate adjusted entry means for phenotypic data of Boxriker *et al*. 2017b and get the ones for individuals of population 1 and 2 only.<br>
 
 - **car001_s003.R** -> carry out GWAS with *rrBLUP* and make manhattan and QQ plots, using built genetic map **input/car001_d004.Rds**, genotypes of both populations put together **input/car001_d005.pop** filtered with *SelectionTools*, phenotypes of both populations combined.<br>
 
@@ -26,7 +26,7 @@
 
 - **car001_d005.pop** -> SNP marker data to read into *SelectionTools* for filtering, 13917 SNP markers and 163 individuals.
 
-- **car001_d006.Rds** -> phenotypic data of complete trial (Boxriker *et al*. 2018) to estimate entry means with *ASReml-R*. 3368 entries, 12 variables: vase life in days (y), greenhouse temperature in C° (GT), replication (REP), type of carnation (CT), storage treatment or not (STO), genotype (GENO), box in the greenhouse (BOX), position inside box (P), day of starting second phase in laboratory (DV), tray in the laboratory (TRAY), position in tray (POS), stem harvested, first or second (W). 556 Genotypes (GENO) in total. 
+- **car001_d006.Rds** -> phenotypic data of complete trial (Boxriker *et al*. 2017b) to estimate entry means with *ASReml-R*. 3368 entries, 12 variables: vase life in days (y), greenhouse temperature in C° (GT), replication (REP), type of carnation (CT), storage treatment or not (STO), genotype (GENO), box in the greenhouse (BOX), position inside box (P), day of starting second phase in laboratory (DV), tray in the laboratory (TRAY), position in tray (POS), stem harvested, first or second (W). 556 Genotypes (GENO) in total. 
 
 - **car001_d007.Rds** -> list individuals in populations 1 and 2 only.
 
