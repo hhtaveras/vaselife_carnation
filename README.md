@@ -1,4 +1,6 @@
-# Scripts
+# Files and scripts
+
+## scripts
 - **car001_s001.R** -> build genetic map with OneMap combining the two F1 carnation populations, **input/car001_d001.vcf.gz** and **input/car001_d002.vcf.gz**. Make plot of built genetic map **input/car001_d004.Rds** with *LinkageMapView*.<br>
 
 - **car001_s002.R** -> calculate adjusted entry means for phenotypic data of Boxriker *et al*. 2018 and get the ones for individuals of population 1 and 2 only.<br>
@@ -12,7 +14,8 @@
 - **car001_s006.R** -> carry out QTL mapping for the two populations individually and make plots.<br>   
 
 - **car001_s010.R** -> modified functions of *LinkageMapView*.<br>
-# input
+
+## input
 - **car001_d001.vcf.gz** -> population 1 in vcf format to read into OneMap.
 
 - **car001_d002.vcf.gz** -> population 2 in vcf format to read into OneMap.
@@ -37,10 +40,14 @@
 
 - **car001_d012.vcf.gz** -> genotypic data of population 2 after being filtered for quality SNPs.
 
-- **car001_d021.Rdata** -> permutation test results for CIM scan of population 1. 1000 permutations. 
+- **car001_d021.Rdata** -> permutation test results for CIM scan of population 1. 1000 permutations.
+  
+- **car001_d022.Rdata** -> permutation test results for CIM scan of population 2. 1000 permutations.
 
-# Figures
+## output
+- **car001_d015.npo** -> SNP marker data in NPO format, two rows per marker, to read into *SelectionTools* for filtering, 13917 SNP markers and 163 individuals.
 
+## figures
 - **fig1.pdf** -> figure of built genetic map with *LinkageMapView*.
 
 - **fig2.png** -> Manhattan and QQ plots of GWAS with combined populations and built genetic map.
@@ -55,7 +62,7 @@
 
 - **figS4.png** -> supplementary figure 4, plot of QTL mapping results for population 2.
 
-# References
+## References
 - Boxriker M, Boehm R, M¨ohring J, et al (2017b) Efficient statistical design in twophase experiments on vase life in carnations (Dianthus caryophyllus L.). Postharvest Biology and Technology 128:161–168. https://doi.org/10.1016/j.postharvbio.2016.
 12.003
 
@@ -71,8 +78,6 @@
 
 
 
--**car001_d022.Rdata** -> permutation test results for CIM scan of population 2. 1000 permutations. 
 
-# output
 
--**car001_d015.npo** -> SNP marker data in NPO format, two rows per marker, to read into *SelectionTools* for filtering, 13917 SNP markers and 163 individuals.
+
