@@ -1,6 +1,6 @@
 # Files and scripts
 
-## scripts
+## Scripts
 - **car001_s001.R** -> build genetic map with OneMap combining the two F1 carnation populations, **input/car001_d001.vcf.gz** and **input/car001_d002.vcf.gz**. Make plot of built genetic map **input/car001_d004.Rds** with *LinkageMapView*.<br>
 
 - **car001_s002.R** -> calculate adjusted entry means for phenotypic data of Boxriker *et al*. 2017b and get the ones for individuals of population 1 and 2 only.<br>
@@ -47,7 +47,7 @@
 ## output
 - **car001_d015.npo** -> SNP marker data in NPO format, two rows per marker, to read into *SelectionTools* for filtering, 13917 SNP markers and 163 individuals.
 
-## figures
+## Figures
 - **fig1.pdf** -> figure of built genetic map with *LinkageMapView*.
 
 - **fig2.png** -> Manhattan and QQ plots of GWAS with combined populations and built genetic map.
