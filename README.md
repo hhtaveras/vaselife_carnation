@@ -7,7 +7,7 @@
 
 - **car001_s003.R** -> carry out QTL mapping for the two populations individually and make plots.<br> 
 
-- **car001_s004.R** ->carry out GWAS with *rrBLUP* and make manhattan and QQ plots, using built genetic map **input/car001_d004.Rds**, genotypes of both populations put together **input/car001_d005.pop** filtered with *SelectionTools*, phenotypes of both populations combined.<br>
+- **car001_s004.R** -> carry out GWAS with *rrBLUP* and make manhattan and QQ plots, using built genetic map **input/car001_d004.Rds**, genotypes of both populations put together **input/car001_d005.pop** filtered with *SelectionTools*, phenotypes of both populations combined.<br>
 
 - **car001_s005.R** -> carry put genomic prediction including top scoring QTL analyses markers as fixed effects, for both only additive and additive + dominance effects.<br>
 
@@ -34,7 +34,7 @@
 
 - **car001_d008.Rds** -> adjusted entry means of vase life for individuals of populations 1 and 2 only to use for GWAS.  
 
-- **car001_d009.Rds** -> top scoring markers log10(0.1) from GWAS to include in genomic prediction model. 
+- **car001_d009.Rds** -> top scoring markers from GWAS to include in genomic prediction model. 
 
 - **car001_d010.Rds** -> genetic and physical map positions of mapped markers. 
 
@@ -46,10 +46,12 @@
   
 - **car001_d022.Rdata** -> permutation test results for CIM scan of population 2. 1000 permutations.
 
+- **car001_d023.Rdata** -> top scoring markers from QTL analyses to include in genomic prediction model.
+
 ## output
 - **car001_d015.npo** -> SNP marker data in NPO format, two rows per marker, to read into *SelectionTools* for filtering, 13917 SNP markers and 163 individuals.
 
-## Figures
+## figures
 - **fig1.pdf** -> figure of built genetic map with *LinkageMapView*.
 
 - **fig2.png** -> plot of QTL mapping results for population 1.
