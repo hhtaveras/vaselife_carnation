@@ -13,9 +13,7 @@
 
 - **car001_s006.R** -> carry put genomic prediction including top scoring GWAS markers as fixed effects, for both only additive and additive + dominance effects.<br>
 
-- **car001_s007.R** -> make plot of principal coordinate analysis and heatmap genetic distances between individuals. Make correlation plot between genetic and physical distances.<br>
-
-- **car001_s008.R** -> carry out QTL mapping for the two populations individually and make plots.<br>   
+- **car001_s007.R** -> make plot of principal coordinate analysis and heatmap genetic distances between individuals. Make correlation plot between genetic and physical distances.<br>  
 
 - **car001_s010.R** -> modified functions of *LinkageMapView*.<br>
 
