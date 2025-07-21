@@ -52,17 +52,19 @@
 ## Figures
 - **fig1.pdf** -> figure of built genetic map with *LinkageMapView*.
 
-- **fig2.png** -> Manhattan and QQ plots of GWAS with combined populations and built genetic map.
+- **fig2.png** -> plot of QTL mapping results for population 1.
 
-- **fig3.png** -> Correlation plots between estimated VL values by genomic prediction and observed values. 
+- **fig3.pdf** -> plot of QTL mapping results for population 2. 
+
+- **fig4.png** -> Correlation plots between estimated VL values by genomic prediction and observed values, QTL analyses top scoring SNP markers.
+
+- **fig5.png** -> Correlation plots between estimated VL values by genomic prediction and observed values, GWAS top scoring SNP markers. 
 
 - **figS1.pdf** -> supplementary figure 1, plot of first two principal coordinates and heatmap of genetic distances.
 
 - **figS2.png** -> supplementary figure 2, plots of correlation between genetic and physical positions of mapped markers.
 
-- **figS3.png** -> supplementary figure 3, plot of QTL mapping results for population 1.
-
-- **figS4.png** -> supplementary figure 4, plot of QTL mapping results for population 2.
+- **figS3.png** -> supplementary figure 3, Manhattan and QQ plots of GWAS with combined populations and built genetic map.
 
 ## References
 - Boxriker M, Boehm R, Möhring J, et al (2017b) Efficient statistical design in twophase experiments on vase life in carnations (Dianthus caryophyllus L.). Postharvest Biology and Technology 128:161–168. https://doi.org/10.1016/j.postharvbio.2016.12.003
