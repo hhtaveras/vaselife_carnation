@@ -22,7 +22,7 @@ st.restrict.marker.data ( MaMis.MAX=0.1 ) # Max missing at a marker
 st.restrict.marker.data ( ExHet.MIN=0.1 ) # Minimum gene diversity
 st.restrict.marker.data ( InMis.MAX=0.1 ) # Max missing per individual
 
-# Write data in another format
+# Write data in binary format
 st.write.marker.data(format="n", nfilename = "car001_d015")
 
 # Load marker data
@@ -203,6 +203,7 @@ plot4
 # ggsave(plot4,
 #        file = "figures/figS2.png", 
 #        width=7, height=8, units="in")
+
 
 
 
